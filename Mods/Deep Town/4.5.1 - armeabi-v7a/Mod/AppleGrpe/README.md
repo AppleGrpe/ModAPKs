@@ -11,4 +11,5 @@ Visit [platinmods](https://platinmods.com/threads/how-to-mod-split-apks-app-bund
 # Changelog:
 Mod | Modified Dictionary/XML | Modified File ~~In assets/json/~~
 --- | ----------------------- | ---------------------------------
-Buildings instantly appear when you build them. | `deployTime:0` | `building_blueprints.json`
+Buildings instantly build. | `"deployTime":0` | `building_blueprints.json`
+Building instantly upgrade. | `"upgradeDuration":0` | `building_blueprints.json`
